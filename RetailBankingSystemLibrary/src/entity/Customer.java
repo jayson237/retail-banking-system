@@ -1,10 +1,3 @@
-/*
-To make the identification number and contact number unique
-ALTER TABLE Customer
-ADD CONSTRAINT UK_IDENTIFICATIONNUMBER UNIQUE (IDENTIFICATIONNUMBER);
-TABLE Customer
-ADD CONSTRAINT UK_CONTACTNUMBER UNIQUE (CONTACTNUMBER);
- */
 package entity;
 
 import java.io.Serializable;
